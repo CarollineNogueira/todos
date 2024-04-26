@@ -1,0 +1,77 @@
+.abas-menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.abas-menu label {
+    background-color: #f3e5f5; /* rose gold */
+    color: #ffffff; /* white */
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.abas-menu label:hover {
+    background-color: #ffcdd2; /* light rose gold */
+    transition: background-color 0.3s ease;
+}
+
+.abas-menu input[type="radio"] {
+    display: none;
+}
+
+.abas-menu input[type="radio"]:checked + label {
+    background-color: #ffcdd2; /* light rose gold */
+}
+
+.aba-conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.aba {
+    display: none;
+    text-align: center;
+}
+
+.aba img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.abas-menu input[type="radio"]:checked ~ .aba-conteudo > .aba {
+    display: block;
+}
+
+.feedback {
+    background-color: #ffffff; /* white */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback p {
+    color: #555555; /* dark gray */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-comprar {
+    background-color: #f3e5f5; /* rose gold */
+    color: #ffffff; /* white */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn-comprar:hover {
+    background-color: #ffcdd2; /* light rose gold */
+}
